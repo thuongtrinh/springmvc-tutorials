@@ -14,5 +14,6 @@ public class DIConfiguration {
 	@Bean
 	public MessageService getMessageService(){
 		return new EmailService();
+		//return new TwitterService();
 	}
 }
